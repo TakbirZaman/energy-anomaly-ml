@@ -1,0 +1,9 @@
+# ── Deep Learning ─────────────────────────────────────────────────────────────
+# Let pip find the best cp314 wheel for your system
+torch
+numpy
+
+# ── Web Framework ─────────────────────────────────────────────────────────────
+fastapi[standard]
+pydantic>=2.12.0  # v2.12+ has improved support for Python 3.14
+python-multipart
